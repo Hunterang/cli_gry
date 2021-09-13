@@ -1,0 +1,23 @@
+{
+  "name": "cli_gry",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./bin/cli.js",
+  "bin": {
+    "gry": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2"
+  }
+}
